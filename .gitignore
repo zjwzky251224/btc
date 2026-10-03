@@ -1,0 +1,10 @@
+node_modules/
+artifacts/
+coverage/
+.env
+.env.*
+*.log
+config/*.local.json
+*.zip
+*.md
+omnichain-lending-security-report.zh-CN.md

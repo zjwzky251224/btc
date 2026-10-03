@@ -1,0 +1,30 @@
+{
+  "ethereumRpc": "https://YOUR_ETHEREUM_SEPOLIA_RPC",
+  "arbitrumRpc": "https://YOUR_ARBITRUM_SEPOLIA_RPC",
+  "ethereumSelector": "0",
+  "arbitrumSelector": "0",
+  "ethereumRouter": "0x0000000000000000000000000000000000000000",
+  "arbitrumRouter": "0x0000000000000000000000000000000000000000",
+  "ethereumUsdc": "0x0000000000000000000000000000000000000000",
+  "arbitrumUsdc": "0x0000000000000000000000000000000000000000",
+  "ethereumWeth": "0x0000000000000000000000000000000000000000",
+  "ethUsdFeed": "0x0000000000000000000000000000000000000000",
+  "usdcUsdFeed": "0x0000000000000000000000000000000000000000",
+  "sequencerFeed": "0x0000000000000000000000000000000000000000",
+  "ethereumGovernance": "0x0000000000000000000000000000000000000000",
+  "arbitrumGovernance": "0x0000000000000000000000000000000000000000",
+  "ethereumRequiredCCVs": [],
+  "arbitrumRequiredCCVs": [],
+  "eigenPodManager": "0x0000000000000000000000000000000000000000",
+  "delegationManager": "0x0000000000000000000000000000000000000000",
+  "risk": {
+    "ltvBps": 3000,
+    "liquidationBps": 5000,
+    "bonusBps": 500,
+    "marketCapUsdc": "10000",
+    "globalCapUsdc": "10000",
+    "cashFloorUsdc": "100",
+    "priceMaxAgeSeconds": 3600,
+    "sequencerGraceSeconds": 3600
+  }
+}
